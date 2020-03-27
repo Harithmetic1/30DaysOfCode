@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Lobster|Pacifico&display=swap');
+
+
+body{
+    background-color: #ADD7D7;
+}
+
+#para{
+    margin-left: 600px;
+    font-family: Pacifico, cursive;
+    font-size: 2em;
+    width: 300px;
+    height: 300px;
+    
+}
+#img{
+    margin-left: 550px;
+    align-self: center;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    padding: 0;
+}
+#thank{
+    font-family: Pacifico, cursive;
+    margin-left: 500px;
+    font-size: 2.5em;
+    margin-top: -80px;
+    position: absolute;
+}
+#hero{
+    font-family: Anton, Roboto;
+    text-align: center;
+}
+
+@media only screen and (max-width: 412px) {
+    #para{
+    font-family: Pacifico, cursive;
+    font-size: 1em;
+    margin-left: 30px;
+    text-align: center;
+    margin-top: 80px;
+    /* position: absolute; */
+    padding: 0;
+    }
+    #img{
+        
+        /* position: absolute; */
+        margin-left: 50px;
+        align-self: center;
+        width: 250px;
+        height: 250px;
+        margin-top: -200px;
+        padding: 0;
+    }
+    #hero{
+        margin-top: 70px;
+        position: absolute;
+        margin-left: 25px;
+        font-size: 0.8em;
+        padding: 0;
+        text-align: center;
+        width: 300px;
+    }
+    #thank{
+        font-family: Pacifico, cursive;
+        margin-left: 60px;
+        font-size: 2em;
+        margin-top: 10px;
+        position: absolute;
+    }
+}
+@media only screen and (min-width: 413px) {
+    #para{
+    font-family: Pacifico, cursive;
+    font-size: 1em;
+    margin-left: 50px;
+    text-align: center;
+    margin-top: 80px;
+    /* position: absolute; */
+    padding: 0;
+    }
+    #img{
+        
+        /* position: absolute; */
+        margin-left: 70px;
+        align-self: center;
+        width: 250px;
+        height: 250px;
+        margin-top: -200px;
+        padding: 0;
+    }
+    #hero{
+        margin-top: 70px;
+        position: absolute;
+        margin-left: 50px;
+        font-size: 0.8em;
+        padding: 0;
+        text-align: center;
+        width: 300px;
+    }
+    #thank{
+        font-family: Pacifico, cursive;
+        margin-left: 80px;
+        font-size: 2em;
+        margin-top: 10px;
+        position: absolute;
+    }
+}
+@media only screen and (min-width: 750px) {
+    #para{
+    font-family: Pacifico, cursive;
+    font-size: 1.5em;
+    margin-left: 220px;
+    text-align: center;
+    margin-top: 80px;
+    /* position: absolute; */
+    padding: 0;
+    }
+    #img{
+        
+        /* position: absolute; */
+        margin-left: 195px;
+        align-self: center;
+        width: 350px;
+        height: 350px;
+        margin-top: -190px;
+        padding: 0;
+    }
+    #hero{
+        margin-top: 100px;
+        position: absolute;
+        margin-left: 220px;
+        font-size: 1em;
+        padding: 0;
+        text-align: center;
+        width: 300px;
+    }
+    #thank{
+        font-family: Pacifico, cursive;
+        margin-left: 250px;
+        font-size: 2em;
+        margin-top: 30px;
+        position: absolute;
+    }
+}
+
+
+
+@media only screen and (min-width: 1020px) {
+    #para{
+    font-family: Pacifico, cursive;
+    font-size: 1.5em;
+    margin-left: 350px;
+    text-align: center;
+    margin-top: 80px;
+    /* position: absolute; */
+    padding: 0;
+    }
+    #img{
+        
+        /* position: absolute; */
+        margin-left: 320px;
+        align-self: center;
+        width: 350px;
+        height: 350px;
+        margin-top: -190px;
+        padding: 0;
+    }
+    #hero{
+        margin-top: 100px;
+        position: absolute;
+        margin-left: 340px;
+        font-size: 1.1em;
+        padding: 0;
+        text-align: center;
+        width: 300px;
+    }
+    #thank{
+        font-family: Pacifico, cursive;
+        margin-left: 380px;
+        font-size: 2em;
+        margin-top: 30px;
+        position: absolute;
+    }
+}
+@media only screen and (min-width: 1250px) {
+    #para{
+        font-family: Pacifico, cursive;
+        font-size: 1.5em;
+        margin-left: 500px;
+        text-align: center;
+        margin-top: 80px;
+        /* position: absolute; */
+        padding: 0;
+        }
+        #img{
+            
+            /* position: absolute; */
+            margin-left: 480px;
+            align-self: center;
+            width: 350px;
+            height: 350px;
+            margin-top: -190px;
+            padding: 0;
+        }
+        #hero{
+            margin-top: 100px;
+            position: absolute;
+            margin-left: 250px;
+            font-size: 1.1em;
+            padding: 0;
+            text-align: center;
+            width: 800px;
+        }
+        #thank{
+            font-family: Pacifico, cursive;
+            margin-left: 550px;
+            font-size: 2em;
+            margin-top: 30px;
+            position: absolute;
+        }
+    }
